@@ -1,22 +1,19 @@
 # EdgeEngineTrial
 
-    EdgeEngine trial client library can help you interact with mimik edgeEngine framework with the following APIs:
- 
- # edgeEngine Trial Services
+## EdgeEngineClient Platform Protocol
 
- * `startEdgeEngine`
- * `stopEdgeEngine`
- * `restartEdgeEngine`
- * `resetEdgeEngine`
- * `edgeEngineIsRunning` 
- * `edgeEngineStartupParameters`
- * `edgeEngineExpectedVersion`
- * `isCurrentNode`
- * `defaultNodeName`
- * `effectiveUrl`
- * `setCustomPortNumber`
+### Controlling the edgeEngine Runtime
 
-Please see the in-code documentation in Xcode for more details.
+- ``EdgeEngineClient/startEdgeEngine(parameters:)``
+- ``EdgeEngineClient/stopEdgeEngine()``
+- ``EdgeEngineClient/restartEdgeEngine()``
+- ``EdgeEngineClient/resetEdgeEngine()``
+- ``EdgeEngineClient/edgeEngineIsRunning()``
+- ``EdgeEngineClient/edgeEngineRuntimeIsManaged()``
+- ``EdgeEngineClient/edgeEngineParameters()``
+- ``EdgeEngineClient/manageEdgeEngineRuntime(enable:)``
+- ``EdgeEngineClient/expectedEdgeEngineVersion()``
+- ``EdgeEngineClient/setCustomPort(number:)``
 
 ## Supported Platforms, Targets
 * `iOS devices running iOS 15+`
@@ -43,7 +40,7 @@ use_frameworks!
 inhibit_all_warnings!
 
 def mimik
-  pod 'EdgeEngine'
+  pod 'EdgeEngineTrial'
   pod 'EdgeCore'
 end
 
