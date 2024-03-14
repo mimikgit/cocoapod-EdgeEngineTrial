@@ -1,6 +1,6 @@
 # ``EdgeEngineTrial``
 
-mimik Client Library provides a programmatic way to work with the edgeEngine Runtime to access information about the mobile device on which the application is running.
+mimik Client Library provides a programmatic way to work with the trial edgeEngine Runtime to access information about the mobile device on which the application is running.
 
 @Metadata {
     @CallToAction(purpose: link, url: "https://github.com/mimikgit/cocoapod-EdgeEngineTrial")
